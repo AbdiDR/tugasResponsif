@@ -21,3 +21,15 @@ window.addEventListener("scroll", () => {
   const scrollPos = window.pageYOffset;
   homeHero.style.backgroundPositionY = `${scrollPos * 0.7}px`;
 });
+
+// Efek Hover Button
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach((button) => {
+  button.addEventListener("mouseenter", () => {
+    button.style.transform = "scale(1.1)";
+  });
+  button.addEventListener("mouseleave", () => {
+    button.style.transform = "scale(1)";
+  });
+});
