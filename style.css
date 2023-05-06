@@ -83,6 +83,34 @@ body {
   cursor: pointer;
 }
 
+/* Hero Page 2 */
+.hero2 {
+  background-color: #d7ffe3;
+  padding: 100px 130px;
+}
+
+#greet-hero2 {
+  text-align: center;
+  padding: 10px;
+}
+
+#greet-hero2 h2 {
+  font-weight: bold;
+  padding: 10px;
+}
+
+#greet-hero2 p {
+  font-size: large;
+  padding-bottom: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#img-hero2 {
+  width: 800px;
+  border: 20px solid #10b253;
+}
+
 /* Footer */
 footer .footer {
   display: flex;
