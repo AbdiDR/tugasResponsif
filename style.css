@@ -393,9 +393,32 @@ footer #f-baries img {
     margin-bottom: 15px;
   }
 
+  /* Article */
   #img-bmi {
     width: 100%;
     margin-top: 20px;
+  }
+
+  #img-article img {
+    width: 100%;
+  }
+
+  .article {
+    padding: 25px;
+  }
+
+  .tracking {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tracking img {
+    margin-bottom: 10px;
+  }
+
+  #tracking-calories,
+  #tracking-bmi2 {
+    margin-bottom: 40px;
   }
 
   /* Footer */
