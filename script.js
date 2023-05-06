@@ -13,3 +13,11 @@ scrollToTopBtn.addEventListener("click", () => {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 });
+
+// Efek Parallax
+const homeHero = document.querySelector(".home-hero");
+
+window.addEventListener("scroll", () => {
+  const scrollPos = window.pageYOffset;
+  homeHero.style.backgroundPositionY = `${scrollPos * 0.7}px`;
+});
