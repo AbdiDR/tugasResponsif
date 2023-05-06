@@ -114,6 +114,34 @@ footer #f-baries img {
 
 /* ========== Responsive ========== */
 @media (max-width: 992px) {
+  /* Hero Home */
+  .home-hero {
+    flex-direction: column;
+    padding: 50px 30px;
+  }
+
+  #greet-hero h1 {
+    font-size: 30px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  #greet-hero p {
+    font-size: medium;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  #img-hero {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #button-hero button {
+    font-size: medium;
+    padding: 10px 30px;
+  }
+
   /* Footer */
   footer .footer {
     flex-direction: column;
