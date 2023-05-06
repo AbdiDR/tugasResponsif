@@ -63,3 +63,23 @@ footer #f-baries img {
   padding: 10px;
 }
 /* ========== End Style Landing Page ========== */
+
+/* ========== Responsive ========== */
+@media (max-width: 992px) {
+  /* Footer */
+  footer .footer {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  footer #f-baries img {
+    width: 20%;
+    margin-bottom: 10px;
+  }
+
+  #copyright {
+    padding: 10px;
+  }
+}
+/* ========== End Responsive ========== */
