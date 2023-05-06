@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!--tailwind css-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <title>BaRies</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="bg-[#d7ffe3]">
+      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <div class="relative flex items-center justify-between h-16">
+          <!-- Logo -->
+          <div class="flex-shrink-0">
+            <img class="h-[50px]" src="assets/img-landingpage/logo-nav.png" alt="" />
+          </div>
+
+          <!-- Navigation links -->
+          <div class="flex-grow hidden md:block">
+            <ul class="flex space-x-4">
+              <li><a href="index.html" class="text-black hover:bg-[#9aff9a] px-3 py-2 rounded-md text-sm font-medium">Home</a></li>
+              <li><a href="article.html" class="text-black hover:bg-[#9aff9a] px-3 py-2 rounded-md text-sm font-medium">Artikel</a></li>
+              <li><a href="kalori.html" class="text-black hover:bg-[#9aff9a] px-3 py-2 rounded-md text-sm font-medium">Hitung Kalori</a></li>
+              <li><a href="bmi.html" class="text-black hover:bg-[#9aff9a] px-3 py-2 rounded-md text-sm font-medium">Hitung BMI</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile menu (hidden by default) -->
+      <div class="md:hidden bg-[#d7ffe3]">
+        <ul class="px-2 pt-2 pb-3 sm:px-3">
+          <li><a href="index.html" class="text-black hover:bg-[#9aff9a] hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a></li>
+          <li><a href="artikel.html" class="text-black hover:bg-[#9aff9a] hover:text-white block px-3 py-2 rounded-md text-base font-medium">Artikel</a></li>
+          <li><a href="kalori.html" class="text-black hover:bg-[#9aff9a] hover:text-white block px-3 py-2 rounded-md text-base font-medium">Hitung Kalori</a></li>
+          <li><a href="bmi.html" class="text-black hover:bg-[#9aff9a] hover:text-white block px-3 py-2 rounded-md text-base font-medium">Hitung BMI</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Hero Home -->
+    <section class="home-hero">
+      <div id="greet-hero">
+        <h1>Membantu Menjaga Kalori Demi Kesehatan Tubuh</h1>
+        <p>Platform kesehatan dengan membantu<br />setiap orang untuk menjaga kesehatan mereka berdasarkan makanan yang mereka konsumsi.</p>
+        <div id="button-hero">
+          <a href="#tracking-cal"><button>Get Started</button></a>
+        </div>
+      </div>
+      <div>
+        <img id="img-hero" src="assets/img-landingpage/image-hero.png" alt="image" />
+      </div>
+    </section>
+    <!-- End Hero Home -->
+
+    <!-- Hero Page 2 -->
+    <section class="hero2">
+      <div id="greet-hero2">
+        <h2>Hidup Sehat Dengan Giji Seimbang</h2>
+        <p>Giji seimbang diperlukan untuk tubuh dalam menjaga kesehatan mengatur ativitas dan keseimbangan fungsi dalam kehidupan sehari hari</p>
+        <img id="img-hero2" src="assets/img-landingpage/image-hero2.png" alt="image" />
+      </div>
+    </section>
+    <!-- End Hero Page 2 -->
+
+    <!-- Hero Page 3 Track Calories -->
+    <section class="track-calories" id="tracking-cal">
+      <div id="calories">
+        <h2>Track Your Calories</h2>
+        <p>Mengetahui dan menghitung jumlah kalori makanan yang dikonsumsi merupakan hal yang penting bagi kebutuhan tubuh loh!</p>
+        <p>Yuk hitung kalori harianmu!</p>
+        <div id="button-hero">
+          <a href="tracking.html"><button>Track Your Calories</button></a>
+        </div>
+      </div>
+      <div>
+        <img id="img-calories" src="assets/img-landingpage/image-calories.png" alt="image" />
+      </div>
+    </section>
+    <!-- End Hero Page 3 Track Calories -->
+
+    <!-- Hero Page 4 Track BMI -->
+    <section class="track-bmi">
+      <div id="bmi">
+        <h2>Track Your BMI</h2>
+        <p>Mengetahui berapa berat badan ideal dan bisa mengatur pola hidup sehat, caranya adalah dengan menghitung Body Mass Index (BMI).</p>
+        <p>Hitung Body Mass Index kamu!</p>
+        <div id="button-bmi">
+          <a href="#"><button>Track Your BMI</button></a>
+        </div>
+      </div>
+      <div>
+        <img id="img-bmi" src="assets/img-landingpage/image-bmi.jpg" alt="image" />
+      </div>
+    </section>
+    <!-- End Hero Page 4 Track BMI -->
+
+    <button id="scroll-to-top-btn"></button>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div id="f-baries">
+          <img src="assets/img-landingpage/fbaries.png" alt="f-baries" width="200px" />
+        </div>
+        <div id="f-about">
+          <h5>About Us</h5>
+          <p>Platform kesehatan yang menyediakan layanan kesehatan, hitung Body Mass Index (BMI) dan fitur Tracking Calori untuk rekomendasi offset.</p>
+        </div>
+        <div id="f-challenge">
+          <h6>Partner</h6>
+          <img src="assets/img-landingpage/fchallenge.png" alt="f-challenge" width="50px" />
+        </div>
+        <div id="f-skilvul">
+          <h6>Mitra</h6>
+          <img src="assets/img-landingpage/f-mitra2.png" alt="f-mitra" width="55px" />
+        </div>
+      </div>
+      <p id="copyright">Copyrigth &copy; 2023 | BaRies</p>
+    </footer>
+    <!-- Footer -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
