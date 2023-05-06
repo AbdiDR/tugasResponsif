@@ -141,6 +141,53 @@ body {
   border-radius: 8px;
 }
 
+/* Hero Page 4 Track BMI */
+.track-bmi {
+  padding: 150px 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  background-color: #d7ffe3;
+}
+
+#bmi h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#bmi p {
+  font-size: large;
+  margin-right: 20px;
+}
+
+#button-bmi button {
+  font-family: "Poppins", sans-serif;
+  padding: 10px 45px;
+  color: #ffffff;
+  background-color: #10b253;
+  border: none;
+  border-radius: 4px;
+  word-spacing: 3px;
+  font-size: large;
+  font-weight: bold;
+}
+
+#button-bmi button:hover {
+  background-color: #40c590;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#img-bmi {
+  position: static;
+  width: 450px;
+  border-radius: 8px;
+  border: 20px solid #10b253;
+}
+
 /* Footer */
 footer .footer {
   display: flex;
@@ -219,6 +266,30 @@ footer #f-baries img {
   #img-hero2 {
     width: 100%;
     border-width: 10px;
+  }
+
+  /* Hero Page 3 Track Calories */
+  .track-calories {
+    flex-direction: column;
+    padding: 50px 30px;
+    text-align: center;
+  }
+
+  #calories h2 {
+    font-size: 30px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+
+  #calories p {
+    font-size: medium;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  #img-calories {
+    width: 100%;
+    margin-top: 20px;
   }
 
   /* Footer */
