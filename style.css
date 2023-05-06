@@ -170,6 +170,27 @@ footer #f-baries img {
     padding: 10px 30px;
   }
 
+  /* Hero Page 2 */
+  .hero2 {
+    padding: 50px 10px;
+  }
+
+  #greet-hero2 h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  #greet-hero2 p {
+    font-size: medium;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+
+  #img-hero2 {
+    width: 100%;
+    border-width: 10px;
+  }
+
   /* Footer */
   footer .footer {
     flex-direction: column;
