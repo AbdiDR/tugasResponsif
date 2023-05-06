@@ -15,24 +15,21 @@ body {
 /* Navbar */
 .navbar {
   background-color: #d7ffe3;
-  font-size: medium;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  padding: 10px;
 }
 
 .nav-item {
-  color: #048853;
+  margin: 0 10px;
+}
+
+.nav-link {
+  font-size: 16px;
   font-weight: bold;
-}
-
-.nav-item:hover {
-  text-decoration: underline solid 2px #10b253;
-}
-
-.navbar .navbar-nav .nav-item a {
-  padding: 12px;
-}
-
-.navbar .navbar-nav {
-  padding: 5px;
+  padding: 10px 15px;
 }
 
 /* Hero Home */
