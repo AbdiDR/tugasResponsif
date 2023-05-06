@@ -292,6 +292,30 @@ footer #f-baries img {
     margin-top: 20px;
   }
 
+  /* Hero Page 4 Track BMI */
+  .track-bmi {
+    flex-direction: column;
+    padding: 50px 30px;
+    text-align: center;
+  }
+
+  #bmi h2 {
+    font-size: 30px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+
+  #bmi p {
+    font-size: medium;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  #img-bmi {
+    width: 100%;
+    margin-top: 20px;
+  }
+
   /* Footer */
   footer .footer {
     flex-direction: column;
