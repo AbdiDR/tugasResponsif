@@ -1,0 +1,457 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+/* ========== Style Landing Page ========== */
+/* Navbar */
+.navbar {
+  background-color: #d7ffe3;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  padding: 10px;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+/* Hero Home */
+.home-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 150px 130px;
+  background-color: #10b253;
+}
+
+#greet-hero h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+#greet-hero p {
+  font-size: large;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+#img-hero {
+  position: static;
+  width: 450px;
+  border-radius: 8px;
+}
+
+#button-hero button {
+  font-family: "Poppins", sans-serif;
+  padding: 10px 45px;
+  color: #10b253;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  word-spacing: 3px;
+  font-size: large;
+  font-weight: bold;
+}
+
+#button-hero button:hover {
+  background-color: #d7ffe3;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Hero Page 2 */
+.hero2 {
+  background-color: #d7ffe3;
+  padding: 100px 130px;
+}
+
+#greet-hero2 {
+  text-align: center;
+  padding: 10px;
+}
+
+#greet-hero2 h2 {
+  font-weight: bold;
+  padding: 10px;
+}
+
+#greet-hero2 p {
+  font-size: large;
+  padding-bottom: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#img-hero2 {
+  width: 800px;
+  border: 20px solid #10b253;
+}
+
+/* Hero Page 3 Track Calories */
+.track-calories {
+  padding: 150px 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  background-color: #10b253;
+}
+
+#calories h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+#calories p {
+  font-size: large;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+#img-calories {
+  position: static;
+  width: 450px;
+  border-radius: 8px;
+}
+
+/* Hero Page 4 Track BMI */
+.track-bmi {
+  padding: 150px 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  background-color: #d7ffe3;
+}
+
+#bmi h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#bmi p {
+  font-size: large;
+  margin-right: 20px;
+}
+
+#button-bmi button {
+  font-family: "Poppins", sans-serif;
+  padding: 10px 45px;
+  color: #ffffff;
+  background-color: #10b253;
+  border: none;
+  border-radius: 4px;
+  word-spacing: 3px;
+  font-size: large;
+  font-weight: bold;
+}
+
+#button-bmi button:hover {
+  background-color: #40c590;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#img-bmi {
+  position: static;
+  width: 450px;
+  border-radius: 8px;
+  border: 20px solid #10b253;
+}
+
+/* Style Page Article */
+.article {
+  padding: 50px 100px;
+  background-color: #f2fffa;
+}
+
+article h1 {
+  font-weight: bold;
+}
+
+#tanggal-artikel {
+  font-style: italic;
+  font-size: 12px;
+  color: #999;
+}
+
+#img-article img {
+  display: block;
+  margin: 0 auto;
+  border: 20px solid #10b253;
+}
+
+article h5 {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+article p {
+  font-weight: 500;
+  text-align: justify;
+}
+
+.section-tracking {
+  background-color: #f2fffa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.tracking {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+}
+
+.tracking img {
+  border: 8px solid #10b253;
+}
+
+#tracking-calories,
+#tracking-bmi2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#tracking-calories img,
+#tracking-bmi2 img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#button-bmi2 button {
+  background-color: #10b253;
+  color: white;
+  margin-top: 8px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#button-bmi2 button:hover {
+  opacity: 0.8;
+}
+
+/* Scrool To Top */
+#scroll-to-top-btn {
+  position: fixed;
+  display: none;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  padding: 5px;
+  border-radius: 50%;
+  z-index: 99;
+  cursor: pointer;
+}
+
+#scroll-to-top-btn:after {
+  content: "\2191";
+  font-size: 35px;
+}
+
+/* Footer */
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  gap: 30px;
+  background-color: #048853;
+  text-align: center;
+  color: #ffffff;
+  border-bottom: 1px solid #000;
+}
+
+footer #f-baries img {
+  border-radius: 8px;
+}
+
+#f-about p {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+#copyright {
+  background-color: #048853;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+/* ========== End Style Landing Page ========== */
+
+/* ========== Responsive ========== */
+@media (max-width: 992px) {
+  /* Hero Home */
+  .home-hero {
+    flex-direction: column;
+    padding: 50px 30px;
+  }
+
+  #greet-hero h1 {
+    font-size: 30px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  #greet-hero p {
+    font-size: medium;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  #img-hero {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #button-hero button {
+    font-size: medium;
+    padding: 10px 30px;
+  }
+
+  /* Hero Page 2 */
+  .hero2 {
+    padding: 50px 10px;
+  }
+
+  #greet-hero2 h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  #greet-hero2 p {
+    font-size: medium;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+
+  #img-hero2 {
+    width: 100%;
+    border-width: 10px;
+  }
+
+  /* Hero Page 3 Track Calories */
+  .track-calories {
+    flex-direction: column;
+    padding: 50px 30px;
+    text-align: center;
+  }
+
+  #calories h2 {
+    font-size: 30px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+
+  #calories p {
+    font-size: medium;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  #img-calories {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /* Hero Page 4 Track BMI */
+  .track-bmi {
+    flex-direction: column;
+    padding: 50px 30px;
+    text-align: center;
+  }
+
+  #bmi h2 {
+    font-size: 30px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+
+  #bmi p {
+    font-size: medium;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  /* Article */
+  #img-bmi {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #img-article img {
+    width: 100%;
+  }
+
+  .article {
+    padding: 25px;
+  }
+
+  .tracking {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tracking img {
+    margin-bottom: 10px;
+  }
+
+  #tracking-calories,
+  #tracking-bmi2 {
+    margin-bottom: 40px;
+  }
+
+  /* Footer */
+  footer .footer {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  footer #f-baries img {
+    width: 20%;
+    margin-bottom: 10px;
+  }
+
+  #copyright {
+    padding: 10px;
+  }
+}
+/* ========== End Responsive ========== */
